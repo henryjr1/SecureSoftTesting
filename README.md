@@ -1,4 +1,4 @@
-# Project X - Template
+# Project 7 -  WordPress vs. Kali
 
 Time spent: **X** hours spent in total
 
