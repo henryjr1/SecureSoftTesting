@@ -1,18 +1,28 @@
 # Project 7 -  WordPress vs. Kali
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three to five vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-1. (Required) Vulnerability Name or ID
+1. (Required) [Stored XSS vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3438)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+  By inserting a four bit character into a utf8 column you can force SQL to trunicate the character and everything after. Using this fact in combination with wordpress allowance of HTML tags you can insert an statement that will not properly close the HTML tags. You can then add your own on event elements to the site. 
+    - Vulnerability types: Cross Site Scripting (XSS)
+    - Tested in version: 3.9
+    - Fixed in version: 4.1.2
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
+  1.  Log in as administrator
+  2. Create a new post
+  3. Insert the following text:
+  ```
+  xss
+  q cite='x onmouseover=alert(1) style=display:block;positions:fixed;width:100%;height:100%;tope:0; 𝌆'>
+  ```
+  4. Post Message
+  5. Return to home screen to see the effects
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Vulnerability Name or ID
