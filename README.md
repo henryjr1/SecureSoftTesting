@@ -68,7 +68,8 @@ List any additional assets, such as scripts or files
 
 ## Resources
 
-- [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
+- https://www.cvedetails.com/cve/CVE-2017-6814/
+- https://cedricvb.be/post/wordpress-stored-xss-vulnerability-4-1-2/
 - [WordPress Developer Reference](https://developer.wordpress.org/reference/)
 
 GIFs created with [LiceCap](http://www.cockos.com/licecap/).
