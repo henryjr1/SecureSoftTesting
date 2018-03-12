@@ -12,7 +12,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types: Cross Site Scripting (XSS)
     - Tested in version: 3.9
     - Fixed in version: 4.1.2
-  - [ ] GIF Walkthrough: ![alt text](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack.gif)
+  - [ ] GIF Walkthrough: ![Gif of exploit](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack.gif)
   - [ ] Steps to recreate: 
   1.  Log in as administrator
   2. Create a new post
@@ -24,7 +24,7 @@ Time spent: **10** hours spent in total
   4. Post Message
   5. Return to home screen to see the effects
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - [Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack.PNG)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
