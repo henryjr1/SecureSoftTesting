@@ -24,7 +24,7 @@ Time spent: **10** hours spent in total
   4. Post Message
   5. Return to home screen to see the effects
   - [ ] Affected source code:
-    - [Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack.PNG)
+    - ![Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack.PNG)
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
