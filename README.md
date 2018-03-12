@@ -12,7 +12,7 @@ Time spent: **10** hours spent in total
     - Vulnerability types: Cross Site Scripting (XSS)
     - Tested in version: 3.9
     - Fixed in version: 4.1.2
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: ![alt text](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack.gif)
   - [ ] Steps to recreate: 
   1.  Log in as administrator
   2. Create a new post
