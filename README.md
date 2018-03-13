@@ -25,7 +25,7 @@ Time spent: **10** hours spent in total
   5. Return to home screen to see the effects
   - [ ] Affected source code:
     - ![Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack.PNG)
-2. (Required)  Persistent Cross-Site Scripting(https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3440)
+2. (Required)  [Persistent Cross-Site Scripting](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3440)
   - [ ] Summary: 
   Similar to the previous exploit the goal is to get the database to trunicate the text. In this case I can accomplish this by  exploiting the size limit of MySQL TEXT type, which has a limit of 64 KB. By posting a message that is larger than 64 KB the javascript code is exectued.
     - Vulnerability types: Cross Site Scripting (XSS)
@@ -41,7 +41,7 @@ Time spent: **10** hours spent in total
   4. Post message
   - [ ] Affected source code:
     - ![Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack2.PNG)
-3. (Required) Large File Upload XSS (https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9061)
+3. (Required) [Large File Upload XSS](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9061)
   - [ ] Summary: 
   When uploading a file larger than Wordpress 2mb limit javascript code can be executed from the filename because the error message interferes with script restrictions
     - Vulnerability types: Cross Site Scripting (XSS)
