@@ -61,7 +61,7 @@ Time spent: **10** hours spent in total
 
 ## Assets
 
-[Large 20 MB image file for 3rd exploit] (https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/Dinosaurs%20secret%20life%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E.zip)
+[Large 20 MB image file for 3rd exploit](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/Dinosaurs%20secret%20life%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E.zip)
 
 ## Resources
 
@@ -74,5 +74,5 @@ GIFs created with [Snagit](https://www.techsmith.com/screen-capture.html).
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+This week’s assignment was particularly challenging. Although I was able to find many exploits for previous versions of WordPress, I struggled to recreate those vulnerabilities. Most of this was because most websites documented the exploit but did not explain how to create the exploit. Another issue I encountered is that many exploitable plugins have been taken down or patched to fix the vulnerability, which made it hard to find exploits through plugins. This assignment has made me aware of how important outside testing and reporting is to software development. In addition WordPress has done a good job responding to these reports by patching vulnerabilities.
 
