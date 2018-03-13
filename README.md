@@ -57,7 +57,7 @@ Time spent: **10** hours spent in total
   3. Navigate to http://wpdistillery.vm/wp-admin/media-new.php
   4. Drag the file into the upload box
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+    - ![Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack3.PNG)
 
 ## Assets
 
