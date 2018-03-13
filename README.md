@@ -1,6 +1,6 @@
 # Project 7 -  WordPress vs. Kali
 
-Time spent: **10** hours spent in total
+Time spent: **18** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **three to five vulnerabilities** affecting an old version of WordPress
 
