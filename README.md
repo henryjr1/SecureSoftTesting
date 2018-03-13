@@ -21,11 +21,26 @@ Time spent: **10** hours spent in total
   xss
   q cite='x onmouseover=alert(1) style=display:block;positions:fixed;width:100%;height:100%;tope:0; 𝌆'>
   ```
-  4. Post Message
+  4. Post message
   5. Return to home screen to see the effects
   - [ ] Affected source code:
     - ![Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack.PNG)
-1. (Required) Vulnerability Name or ID
+2. (Required)  Persistent Cross-Site Scripting(https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-3440)
+  - [ ] Summary: 
+    - Vulnerability types: Cross Site Scripting (XSS)
+    - Tested in version: 4.0
+    - Fixed in version: 4.2.1
+  - [ ] GIF Walkthrough: ![Gif of exploit](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack2.GIF)
+  - [ ] Steps to recreate: 
+  1. Create a new comment
+  2. Insert the following text:
+  ```
+  <a title='x onmouseover=alert(1) style=position:absolute;left:0;top:0;width:100%;height:100% [Insert 64 kb of text] '></a>
+  ```
+  4. Post message
+  - [ ] Affected source code:
+    - ![Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack2.PNG)
+3. (Required) 
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
@@ -34,33 +49,6 @@ Time spent: **10** hours spent in total
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
@@ -70,9 +58,9 @@ List any additional assets, such as scripts or files
 
 - https://www.cvedetails.com/cve/CVE-2017-6814/
 - https://cedricvb.be/post/wordpress-stored-xss-vulnerability-4-1-2/
-- [WordPress Developer Reference](https://developer.wordpress.org/reference/)
+- https://www.exploit-db.com/exploits/36844/
 
-GIFs created with [LiceCap](http://www.cockos.com/licecap/).
+GIFs created with [Snagit](https://www.techsmith.com/screen-capture.html).
 
 ## Notes
 
