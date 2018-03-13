@@ -40,25 +40,34 @@ Time spent: **10** hours spent in total
   4. Post message
   - [ ] Affected source code:
     - ![Image of affected code](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack2.PNG)
-3. (Required) 
+3. (Required) Large File Upload XSS (https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9061)
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  When uploading a file larger than Wordpress 2mb limit javascript code can be executed from the filename because the error message interferes with script restrictions
+    - Vulnerability types: Cross Site Scripting (XSS)
+    - Tested in version: 4.0
+    - Fixed in version: 4.7.5
+  - [ ] GIF Walkthrough: ![Gif of exploit](https://github.com/henryjr1/SecureSoftTesting/blob/Week-7/XSS_Attack3.GIF)
   - [ ] Steps to recreate: 
+  1. Download the [XSS3_Attack3.png]() or create a file larger than 2mb
+  2. Ensure that the name is as follows
+  ```
+  Dinosaurs secret life<img src=x onerror=alert(1)>.png
+  ```
+  3. Navigate to http://wpdistillery.vm/wp-admin/media-new.php
+  4. Drag the file into the upload box
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 
 ## Assets
 
-List any additional assets, such as scripts or files
+Large image file for 3rd exploit ()
 
 ## Resources
 
 - https://www.cvedetails.com/cve/CVE-2017-6814/
 - https://cedricvb.be/post/wordpress-stored-xss-vulnerability-4-1-2/
 - https://www.exploit-db.com/exploits/36844/
+= https://hackerone.com/reports/203515
 
 GIFs created with [Snagit](https://www.techsmith.com/screen-capture.html).
 
@@ -66,18 +75,3 @@ GIFs created with [Snagit](https://www.techsmith.com/screen-capture.html).
 
 Describe any challenges encountered while doing the work
 
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
