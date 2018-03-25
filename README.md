@@ -31,9 +31,12 @@ Vulnerability #2: __________________
 ## Red
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR)
+
 Gif:
+![Gif of exploit](https://github.com/henryjr1/SecureSoftTesting/blob/Week-8/IDOR.GIF)
+
 Overview:
-Throught burp I was able to change the value of id to 10, which gave me access to Testy McTesterson who profile was not supposed to be public until Septermber 1st.
+Using burp I was able to change the value of id to 10, which gave me access to Testy McTesterson who profile was not supposed to be public until Septermber 1st.
 
 Vulnerability #2: __________________
 
