@@ -16,7 +16,13 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: Session Hijacking
+
+Gif:
+![Gif of exploit](https://github.com/henryjr1/SecureSoftTesting/blob/Week-8/HIGHJACKING.GIF)
+
+Overview:
+I used two different web browsers (Chrome & Edge). On Edge I logged into the website then went to ```/public/hacktools/change_session_id.php``` and copied my cookie. On Chrome I went to the public version of the website and then went to ```/public/hacktools/change_session_id.php```. Finally I replaced the Chrome cookie with the copied Edge cookie, which granted me access to the staff version of the website.
 
 Vulnerability #2: __________________
 
