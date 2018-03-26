@@ -27,8 +27,10 @@ I used two different web browsers (Chrome & Edge). On Edge I logged into the web
 Vulnerability #2: SQL Injection (SQLi)
 
 Gif:
+![Gif of exploit](https://github.com/henryjr1/SecureSoftTesting/blob/Week-8/SQLI.GIF)
 
 Overview:
+Using the command ```/blue/public/salesperson.php?id=1'+OR+SLEEP(1)=0+--+``` I was able to delay the response from the database, which proves that the site is SQLI vunerable.
 
 ## Green
 
