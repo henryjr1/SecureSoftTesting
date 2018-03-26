@@ -71,4 +71,4 @@ Using the the code located in this [HTML file](https://github.com/henryjr1/Secur
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+Most of the vunerabilites weren't too hard to find. It was only time consuming because I had to test an exploit on each site until I was able to successfully implement it. The hardest of the exploits to find was SQLI. I was initially trying to run a UNION SELECT, but I'd always receive a database query failure so I settled on the sleep command. 
