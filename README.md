@@ -24,8 +24,11 @@ Gif:
 Overview:
 I used two different web browsers (Chrome & Edge). On Edge I logged into the website then went to ```/public/hacktools/change_session_id.php``` and copied my cookie. On Chrome I went to the public version of the website and then went to ```/public/hacktools/change_session_id.php```. Finally I replaced the Chrome cookie with the copied Edge cookie, which granted me access to the staff version of the website.
 
-Vulnerability #2: __________________
+Vulnerability #2: SQL Injection (SQLi)
 
+Gif:
+
+Overview:
 
 ## Green
 
@@ -55,7 +58,13 @@ Gif:
 Overview:
 Using burp I was able to change the value of id to 10, which gave me access to Testy McTesterson who profile was not supposed to be public until Septermber 1st.
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
+
+Gif:
+![Gif of exploit](https://github.com/henryjr1/SecureSoftTesting/blob/Week-8/CROSSSITE.GIF)
+
+Overview:
+Using the the code located in this [HTML file](https://github.com/henryjr1/SecureSoftTesting/blob/Week-8/csrf.html) I was able to target/ edit the country page of a logged in user. 
 
 
 ## Notes
